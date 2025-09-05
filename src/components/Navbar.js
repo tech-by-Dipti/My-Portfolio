@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "./Navbar.css";
 import { Link } from "react-scroll";
 import "@fortawesome/fontawesome-free/css/all.min.css";
-import AOS from "aos";
 import "aos/dist/aos.css";
 
 export default function Navbar() {
@@ -17,15 +16,19 @@ export default function Navbar() {
           <i className="fas fa-home"></i> Home
         </li>
         <li>
-          <a href="#about" onClick={() => setIsOpen(false)}>
-            <Link to="about" smooth={true} duration={500} className="nav-link">
-              <i className="fas fa-user"></i> About
-            </Link>
-          </a>
+          <Link
+            to="about"
+            smooth={true}
+            duration={500}
+            className="nav-link"
+            onClick={() => setIsOpen(false)}
+          >
+            <i className="fas fa-user"></i> About
+          </Link>
         </li>
 
         <li>
-          <a href="#skills" onClick={() => setIsOpen(false)} >
+          <a href="#skills" onClick={() => setIsOpen(false)}>
             <i className="fas fa-code"></i> Skills
           </a>
         </li>
@@ -35,9 +38,7 @@ export default function Navbar() {
             <i className="fas fa-phone"></i> Contact Me
           </a>
         </li>
-
       </div>
-      
 
       <div className="hamburger" onClick={() => setIsOpen(!isOpen)}>
         <i className="fas fa-bars"></i>

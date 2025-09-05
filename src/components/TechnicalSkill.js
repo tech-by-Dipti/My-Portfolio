@@ -1,21 +1,21 @@
 import React from 'react'
 import './TechnicalSkill.css';
 import { useEffect } from "react";
-import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaBootstrap,  FaGithub, FaGitAlt} from 'react-icons/fa';
-import {SiMysql } from 'react-icons/si';
+import { FaHtml5, FaJs, FaReact, FaBootstrap, FaGithub, FaGitAlt } from 'react-icons/fa';
+import { SiMongodb, SiTailwindcss } from 'react-icons/si';
 import AOS from "aos";
 import "aos/dist/aos.css";
 const skills = [
   { name: 'HTML', icon: <FaHtml5 />, color: '#e44d26' },
-  { name: 'CSS', icon: <FaCss3Alt />, color: '#1572B6' },
   { name: 'JavaScript', icon: <FaJs />, color: '#f0db4f' },
   { name: 'Bootstrap', icon: <FaBootstrap />, color: '#7952b3' },
   { name: 'React JS', icon: <FaReact />, color: '#61dafb' },
-  { name: 'SQL', icon: <SiMysql />, color: '#00758f' },
+  { name: 'MongoDB', icon: <SiMongodb />, color: '#47A248' },
+  { name: 'Tailwind CSS', icon: <SiTailwindcss />, color: '#38BDF8' },
   { name: 'Git', icon: <FaGitAlt />, color: '#f1502f' },
   { name: 'GitHub', icon: <FaGithub />, color: 'white' },
- 
 ];
+
 
 export default function TechnicalSkill() {
    useEffect(() => {

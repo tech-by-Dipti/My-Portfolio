@@ -20,7 +20,7 @@ export default function BackBtn() {
   return (
     visible && (
       <div className="back-to-top" onClick={scrollToTop}>
-        <i class="fa-solid fa-arrow-up-from-bracket"></i>
+        <i className="fa-solid fa-arrow-up-from-bracket"></i>
       </div>
     )
   );
