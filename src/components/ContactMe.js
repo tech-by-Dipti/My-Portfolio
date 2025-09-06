@@ -16,10 +16,10 @@ export default function ContactMe() {
 
     emailjs
       .sendForm(
-        "service_gcm5mz8",     // Replace with your EmailJS Service ID
-        "template_3i878v6",    // Replace with your EmailJS Template ID
+        "service_gcm5mz8",     
+        "template_3i878v6",    
         form.current,
-        "okRveV7xrUTprp4tl"      // Replace with your EmailJS Public Key
+        "okRveV7xrUTprp4tl"      
       )
       .then(
         (result) => {
@@ -30,7 +30,7 @@ export default function ContactMe() {
         }
       );
 
-    e.target.reset(); // Clear form after submit
+    e.target.reset();
   };
 
   return (
