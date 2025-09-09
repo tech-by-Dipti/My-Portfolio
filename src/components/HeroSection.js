@@ -18,7 +18,7 @@ export default function HeroSection() {
             Hire Me!
           </a>
           <a
-            href={`${process.env.PUBLIC_URL}/Dipti_Manna.pdf`} 
+            href={`${process.env.PUBLIC_URL}/Dipti Manna Resume.pdf`} 
             target="_blank"
             rel="noopener noreferrer"
             className="cv"

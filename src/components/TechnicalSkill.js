@@ -1,7 +1,7 @@
 import React from 'react'
 import './TechnicalSkill.css';
 import { useEffect } from "react";
-import { FaHtml5, FaJs, FaReact, FaBootstrap, FaGithub, FaGitAlt } from 'react-icons/fa';
+import { FaHtml5, FaJs, FaReact, FaBootstrap, FaGithub} from 'react-icons/fa';
 import { SiMongodb, SiTailwindcss } from 'react-icons/si';
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -12,7 +12,6 @@ const skills = [
   { name: 'React JS', icon: <FaReact />, color: '#61dafb' },
   { name: 'MongoDB', icon: <SiMongodb />, color: '#47A248' },
   { name: 'Tailwind CSS', icon: <SiTailwindcss />, color: '#38BDF8' },
-  { name: 'Git', icon: <FaGitAlt />, color: '#f1502f' },
   { name: 'GitHub', icon: <FaGithub />, color: 'white' },
 ];
 

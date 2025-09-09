@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import Navbar from './components/Navbar';
@@ -8,6 +8,7 @@ import TechnicalSkill from './components/TechnicalSkill';
 import ContactMe from './components/ContactMe';
 import W_appIcon from './components/W_appIcon';
 import BackBtn from './components/BackBtn';
+import ProjectsPage from './components/ProjectsPage';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
      <HeroSection/>
      <About/>
      <TechnicalSkill/>
+     <ProjectsPage />
      <ContactMe/>
      <W_appIcon/>
      <BackBtn/>

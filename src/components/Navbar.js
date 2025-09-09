@@ -32,7 +32,11 @@ export default function Navbar() {
             <i className="fas fa-code"></i> Skills
           </a>
         </li>
-
+        <li>
+          <a href="#projects" onClick={() => setIsOpen(false)}>
+            <i className="fas fa-project-diagram"></i> Projects
+          </a>
+        </li>
         <li>
           <a href="#contact" onClick={() => setIsOpen(false)}>
             <i className="fas fa-phone"></i> Contact Me
